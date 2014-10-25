@@ -80,6 +80,13 @@ This is the codebook for the tidy dataset obtained using the **run_analysis.R** 
 
 > angle(): Angle between to vectors.
 
+The original data (merged between train and test sets) contains 10299 observations and 561 features. The main transformations to the data which is involved in the script are:
+
+1. Subsetting the features on the original dataset so that it contains only the features with mean (mean()) and standard deviation (std()) estimated from the signals. Features with meanFreq() and angleMean are not included
+2. Calculating the average of these features across every unique subject and activity
+ 
+Details on the script can be found on the **README** file. The tidy dataset contains 180 observations (30 unique subjects over 6 activities, 30*6) and 69 columns (66 average on measurements/variables, 3 for subject, activity id and activity name).
+
 ## Variables
 
 "tBodyAcc.mean.X.avg"
