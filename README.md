@@ -15,7 +15,7 @@ The script which is submitted for this project is **run_analysis.R**. This scrip
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. (from the course project page)
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. (taken from the course project page)
 
 The script works by the following steps:
 
@@ -39,3 +39,5 @@ The script works by the following steps:
 11. Correct the names of the measurement variables by adding **.avg** at the end of every measurement variable
 12. Save the tidy dataset into a text file called **tidydataset.txt** using **write.table()** with the parameter **row.names=FALSE**
 13. To load the tidy dataset, use **read.table()** with the parameter **header=TRUE**
+
+The tidy dataset contains 180 observations (rows) over 69 columns (66 measurements average, subject, activity id and activity name). Details on the variable names can be found on the Codebook.
