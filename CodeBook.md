@@ -180,84 +180,118 @@ Details on the script can be found on the **README** file. The tidy dataset cont
 > the average of standard deviation for Jerk signals derived from body gyroscope signals on Z-axis for the time domain
 
 "tBodyAccMag.mean.NA.avg"
-> the average of mean for the magnitude of three-dimensional body acceleration signals 
+> the average of mean for the magnitude of three-dimensional body acceleration signals for the time domain
 
 "tBodyAccMag.std.NA.avg"
-> the average of standard deviation for the magnitude of three-dimensional body acceleration signals 
+> the average of standard deviation for the magnitude of three-dimensional body acceleration signals for the time domain
 
 "tGravityAccMag.mean.NA.avg"
-> the average of mean for the magnitude of three-dimensional gravity acceleration signals 
+> the average of mean for the magnitude of three-dimensional gravity acceleration signals for the time domain
 
 "tGravityAccMag.std.NA.avg"
-> the average of standard deviation for the magnitude of three-dimensional gravity acceleration signals 
+> the average of standard deviation for the magnitude of three-dimensional gravity acceleration signals for the time domain
 
 "tBodyAccJerkMag.mean.NA.avg"
-> the average of mean for the magnitude of three-dimensional Jerk signals body acceleration signals 
+> the average of mean for the magnitude of three-dimensional Jerk signals derived from body acceleration signals for the time domain
 
 "tBodyAccJerkMag.std.NA.avg"
+> the average of standard deviation for the magnitude of three-dimensional Jerk signals derived from body acceleration signals for the time domain
 
 "tBodyGyroMag.mean.NA.avg"
+> the average of mean for the magnitude of three-dimensional body gyroscope signals for the time domain
 
 "tBodyGyroMag.std.NA.avg"
+> the average of mean for the magnitude of three-dimensional body gyroscope signals for the time domain
 
 "tBodyGyroJerkMag.mean.NA.avg"
+> the average of mean for the magnitude of three-dimensional Jerk signals derived from body gyroscope signals for the time domain
 
 "tBodyGyroJerkMag.std.NA.avg"
+> the average of standard deviation for the magnitude of three-dimensional Jerk signals derived from body gyroscope signals for the time domain
 
 "fBodyAcc.mean.X.avg"
+> the average of mean for body acceleration signals on X-axis for the frequency domain 
 
 "fBodyAcc.mean.Y.avg"
+> the average of mean for body acceleration signals on Y-axis for the frequency domain 
 
 "fBodyAcc.mean.Z.avg"
+> the average of mean for body acceleration signals on Z-axis for the frequency domain 
 
 "fBodyAcc.std.X.avg"
+> the average of standard deviation for body acceleration signals on X-axis for the frequency domain 
 
 "fBodyAcc.std.Y.avg"
+> the average of standard deviation for body acceleration signals on Y-axis for the frequency domain 
 
 "fBodyAcc.std.Z.avg"
+> the average of standard deviation for body acceleration signals on Z-axis for the frequency domain 
 
 "fBodyAccJerk.mean.X.avg"
+> the average of mean for Jerk signals derived from body linear acceleration on X-axis for the frequency domain
 
 "fBodyAccJerk.mean.Y.avg"
+> the average of mean for Jerk signals derived from body linear acceleration on Y-axis for the frequency domain
 
 "fBodyAccJerk.mean.Z.avg"
+> the average of mean for Jerk signals derived from body linear acceleration on Z-axis for the frequency domain
 
 "fBodyAccJerk.std.X.avg"
+> the average of standard deviation for Jerk signals derived from body linear acceleration on X-axis for the frequency domain
 
 "fBodyAccJerk.std.Y.avg"
+> the average of standard deviation for Jerk signals derived from body linear acceleration on Y-axis for the frequency domain
 
 "fBodyAccJerk.std.Z.avg"
+> the average of standard deviation for Jerk signals derived from body linear acceleration on Z-axis for the frequency domain
 
 "fBodyGyro.mean.X.avg"
+> the average of mean for body gyroscope signals on X-axis for the frequency domain 
 
 "fBodyGyro.mean.Y.avg"
+> the average of mean for body gyroscope signals on Y-axis for the frequency domain 
 
 "fBodyGyro.mean.Z.avg"
+> the average of mean for body gyroscope signals on Z-axis for the frequency domain 
 
 "fBodyGyro.std.X.avg"
+> the average of standard deviation for body gyroscope signals on X-axis for the frequency domain 
 
 "fBodyGyro.std.Y.avg"
+> the average of standard deviation for body gyroscope signals on Y-axis for the frequency domain 
 
 "fBodyGyro.std.Z.avg"
+> the average of standard deviation for body gyroscope signals on Z-axis for the frequency domain 
 
 "fBodyAccMag.mean.NA.avg"
+> the average of mean for the magnitude of three-dimensional body acceleration signals for the frequency domain
 
 "fBodyAccMag.std.NA.avg"
+> the average of standard deviation for the magnitude of three-dimensional body acceleration signals for the frequency domain
 
 "fBodyBodyAccJerkMag.mean.NA.avg"
+> the average of mean for the magnitude of three-dimensional Jerk signals derived from body acceleration signals for the frequency domain
 
 "fBodyBodyAccJerkMag.std.NA.avg"
+> the average of standard deviation for the magnitude of three-dimensional Jerk signals derived from body acceleration signals for the frequency domain
 
 "fBodyBodyGyroMag.mean.NA.avg"
+> the average of mean for the magnitude of three-dimensional body gyroscope signals for the frequency domain
 
 "fBodyBodyGyroMag.std.NA.avg"
+> the average of mean for the magnitude of three-dimensional body gyroscope signals for the frequency domain
 
 "fBodyBodyGyroJerkMag.mean.NA.avg"
+> the average of mean for the magnitude of three-dimensional Jerk signals derived from body gyroscope signals for the frequency domain
 
 "fBodyBodyGyroJerkMag.std.NA.avg"
+> the average of standard deviation for the magnitude of three-dimensional Jerk signals derived from body gyroscope signals for the frequency domain
 
 "Subject_ID"
+> identification number for experiment subjects
 
 "Activity_ID"
+> identification number for activites
 
 "Activity_Name"
+> activity name for the experiment
