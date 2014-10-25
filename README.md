@@ -22,7 +22,9 @@ The script works by the following steps:
 1. Read the data. Assuming that the data is in the **UCI HAR Dataset** folder in the working directory:
 
 > read **activity_labels.txt** and **features.txt** using **read.table()** and save them in the variables **activity_labels** and **features**
+
 > read **subject_test.txt**, **X_test.txt** and **y_test.txt** using **read.table()** and save them in the variables **subject_test**, **X_test** and **y_test**
+
 > read **subject_train.txt**, **X_train.txt** and **y_train.txt** using **read.table()** and save them in the variables **subject_train**, **X_train** and **y_train**
 
 2. Merge the test and train data by row using **rbind()** and save them in the variables **subject**, **X** and **y**
