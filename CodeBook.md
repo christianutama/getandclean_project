@@ -1,4 +1,4 @@
-# Codebook
+# Codebook for Getting and Cleaning Data Course Project
 
 "tBodyAcc.mean.X.avg"
 
