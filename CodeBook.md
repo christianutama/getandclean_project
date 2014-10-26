@@ -102,6 +102,8 @@ Common units of measurement:
 + radians/second^2 for gyroscope Jerk signals ("Jerk" in XXXX)
 + same unit of measurement for the corresponding magnitude ("Mag" in XXXX)
 
+List of 66 measurement variables:
+
 "tBodyAcc.mean.X.avg"
 > the average of mean for body acceleration signals on X-axis for the time domain 
 
