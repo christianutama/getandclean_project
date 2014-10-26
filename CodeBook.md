@@ -90,26 +90,17 @@ Details on the script can be found on the **README** file. The tidy dataset cont
 ## Variables
 
 Common format for the measurements variable: XXXX.YY.Z.avg, where:
-
-> First letter in XXXX indicates time ("t") or frequency ("f") domain of the measurement, the rest indicates whether they are accelerometer signals ("Acc"), gyroscope signals ("Gyro"), Jerk signals ("Jerk") or magnitude ("Mag)
-
-> YY is either "mean" or "std" which indicates mean or standard deviation
-
-> Z is either "X", "Y", "Z" or "NA" which indicates the axis of the measurement, "NA" indicates magnitude measurement which doesn't have axis element
-
-> avg indicates that every measurement is the average across each subject and activity
++ First letter in XXXX indicates time ("t") or frequency ("f") domain of the measurement, the rest indicates whether they are accelerometer signals ("Acc"), gyroscope signals ("Gyro"), Jerk signals ("Jerk") or magnitude ("Mag)
++ YY is either "mean" or "std" which indicates mean or standard deviation
++ Z is either "X", "Y", "Z" or "NA" which indicates the axis of the measurement, "NA" indicates magnitude measurement which doesn't have axis element
++ avg indicates that every measurement is the average across each subject and activity
 
 Common units of measurement:
-
-> standard unit of gravity (g) for accelerometer signals ("Acc" in XXXX)
-
-> radians/second for gyroscope signals ("Gyro" in XXXX)
-
-> meter/second^3 (assuming g=meter/second^2) for accelerometer Jerk signals ("Jerk" in XXXX)
-
-> radians/second^2 for gyroscope Jerk signals ("Jerk" in XXXX)
-
-> same unit of measurement for the corresponding magnitude ("Mag" in XXXX)
++ standard unit of gravity (g) for accelerometer signals ("Acc" in XXXX)
++ radians/second for gyroscope signals ("Gyro" in XXXX)
++ meter/second^3 (assuming g=meter/second^2) for accelerometer Jerk signals ("Jerk" in XXXX)
++ radians/second^2 for gyroscope Jerk signals ("Jerk" in XXXX)
++ same unit of measurement for the corresponding magnitude ("Mag" in XXXX)
 
 "tBodyAcc.mean.X.avg"
 > the average of mean for body acceleration signals on X-axis for the time domain 
